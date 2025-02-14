@@ -27,7 +27,7 @@ def main():
     # print all of the alignment score between each species BRD2 and human BRD2
     # using gap opening penalty of -10 and a gap extension penalty of -1 and BLOSUM62 matrix
     for i, pair in enumerate(score_species):
-        print(f"Rank {i + 1}: Species {pair[0]} with score {pair[1]}")
+        print(f"Rank {i + 1}: Species {pair[1]} with score {pair[0]}")
     
 
 if __name__ == "__main__":
